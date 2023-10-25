@@ -26,6 +26,15 @@ This code assumes testing will be performed to verify the functionality of the A
 
 The API is set to run on port 4000 by default. You may change the port in the code if needed.
 
+## Docker and Docker Compose:
+For the running the API using Docker and Docker Compose.The provided `Dockerfile` and `docker-compose.yml` files.
+Build Command :
+
+Docker-compose Command :
+docker build -t chat-log-service .
+
+docker-compose up --build
+
 # Getting Started
 To use this API, ensure that you have an SQLite database set up and running. You can start the API by running the provided JavaScript file using Node.js:
 
